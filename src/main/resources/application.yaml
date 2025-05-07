@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: learning-carnival
+  ai:
+    openai:
+      api-key: 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
+      chat:
+        options:
+          model : gpt-3.5-turbo
+openai:
+  api:
+    url: https://api.groq.com/openai/v1
+    key : ${groq-api-key}
+groq:
+  api:
+    key : ${groq-api-key}
+    url: https://api.groq.com/openai/v1/chat/completions
