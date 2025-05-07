@@ -3,7 +3,7 @@ spring:
     name: learning-carnival
   ai:
     openai:
-      api-key: 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
+      api-key: ${api-key}
       chat:
         options:
           model : gpt-3.5-turbo
